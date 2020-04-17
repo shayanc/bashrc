@@ -10,6 +10,7 @@ alias cc='clear'
 alias search='git branch -ra | grep  -i'
 alias npackages='npm ls -g --depth=0'
 alias git_clean_local_branch='git branch | grep -v develop | xargs git branch -D'
+alias hosts='code c:\\windows\\system32\\drivers\\etc\\hosts'
 
 alias c1="awk '{print \$1}'"
 alias c2="awk '{print \$2}'"
