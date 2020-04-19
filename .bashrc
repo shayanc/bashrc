@@ -5,6 +5,7 @@ alias gb='git branch'
 alias gbr='git branch -r'
 alias gp='git pull'
 alias gpod='git pull origin develop'
+alias gh="git config remote.origin.url | xargs start chrome"
 alias ls='ls -F --color=auto --show-control-chars'
 alias cc='clear'
 alias search='git branch -ra | grep  -i'
